@@ -1,0 +1,14 @@
+\item I compare retention and promotion rates of employees between offices in which any workers leave office due to drafting and offices unaffected by the draft. I use a Logit model to estimate the following relationship between variables.
+
+\begin{equation}
+    Y_{i,j,t+k}=D_{j,t}\beta + X_{j,t}\delta +\epsilon_{i,t}
+\end{equation}
+$Y_{i,t}$ denotes that worker $i$ in office $j$ retains a position in the institution in future periods ($t+k$). $D_{i,t}$ denotes office $j$ having a worker drafted. $X_{j,t}$ denotes the number of staff with the same occupation in office $j$.
+
+\item Identification of $\beta$ in equation (1) requires independence between $ D_j, t$ and $\epsilon_i, j, t$. I establish this independence by empirically documenting that the size of workers with the same occupation in a given office does not predict drafting (Table 1).
+
+\begin{equation*}
+    D_{j,t}=X_{j,t}\beta +\epsilon_{j,t}
+\end{equation*}
+\item 
+\input{Method/Table1}
